@@ -1,0 +1,15 @@
+input {
+    border: none;
+    border: 1px rgba(0,0,0, 0.25) solid;
+    color: rgba(0,0,0, 0.25);
+    background-color: #f1f2f5;
+    width: 100%;
+    height: 34px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+}
