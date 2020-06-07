@@ -9,6 +9,8 @@ import ViewNews from './viewNews';
 import UserList from './userList';
 import Testing from './testing';
 import AddUser from './addUser';
+import ConfirmRating from './confirmRating';
+import ViewUser from './viewUser';
 
 const { Content, Footer } = Layout;
 
@@ -31,13 +33,16 @@ const PageLayout = () => {
                         <UserList />
                     </Route>
                     <Route exact path="/profile/:id">
-                        <UserList />
+                        <ViewUser />
                     </Route>
                     <Route exact path="/testing">
                         <Testing />
                     </Route>
                     <Route exact path="/testing/addUser">
                         <AddUser />
+                    </Route>
+                    <Route exact path="/testing/confirmRating">
+                        <ConfirmRating />
                     </Route>
                 </Switch>
             </Content>

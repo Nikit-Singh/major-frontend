@@ -1,17 +1,12 @@
 import React, { useEffect } from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
 } from "react-router-dom";
 
-import web3 from './web3';
 import jn from './justnews'
 import PageLayout from './components/pageLayout'
 
 import 'antd/dist/antd.css';
-import './App.css';
 
 function App() {
   useEffect(() => {

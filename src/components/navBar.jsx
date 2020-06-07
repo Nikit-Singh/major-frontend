@@ -7,6 +7,7 @@ const { Header } = Layout;
 const NavBar = () => {
     return (
         <Header className="header">
+            <Link to="/"><h1 style={{float: "left", color: "#f1f2f5", fontSize: "26px"}}><b><i>JustNews</i></b></h1></Link>
             <Menu
                 theme="dark"
                 mode="horizontal"
